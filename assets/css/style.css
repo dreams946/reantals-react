@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Exo+2:wght@400;500;700&family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+li{
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 1152px;
+    width:100%;
+    margin: 0 auto;
+}
+.container-head{    
+    position: relative;
+    height: 700px;
+    background: rgba(21, 20, 20, 0.25);
+    background-image: url(../images/header-bg.png);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-repeat: no-repeat;
+
+}
+
+nav{
+    display: flex;
+    padding: 25px 45px 0 45px;
+}
+.logo{
+    width:50%;
+    font-size: 45px;
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.btn-light{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;   
+}
+
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+.menu-city:after {
+    content:url(../images/down-arrow1.png);
+    display: inline-block;
+    width: 0;
+    height:18px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+header{
+    width:100%;
+    text-align: center;
+}
+
+.hero-content{
+    width:742px;
+    margin: 0 auto;;
+}
+.hero-content h1{
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 110px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:#ffffff;
+    margin-bottom: 40px;
+    margin-top:50px;
+}
+.hero-content p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    margin-bottom: 92px;
+
+
+}
+
+.select-box-wrapper{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.select-box{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    box-sizing:border-box; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    padding-right: 18px; 
+    width:940px;   
+    height:100px;
+    border:2px solid #cccccc;
+    border-radius:30px;
+    -moz-border-radius:30px;
+    background: linear-gradient(94.43deg, rgba(249, 249, 249, 0.49) 34.95%, rgba(249, 249, 249, 0.175) 67.01%);
+    backdrop-filter: blur(5px);
+}
+
+.select-box select{
+    border: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 110%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    }
+   
+.box{
+    width: 210px;
+    height: 70px;   
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin-right: 12px;    
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+   
+}
+.box label{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color:#6D6D6D;
+    
+}
+
+.box.search{
+    margin-right: 0;  
+    background: linear-gradient(90deg, #FF594C 0%, #FAC527 100%); 
+}
+
+.search-box {
+    width: 235px;
+    position: relative;
+    margin-right: 0;  
+    background: linear-gradient(90deg, #FF594C 0%, #FAC527 100%); 
+  }
+  
+.search-box input[type="text"] {
+    padding-left: 30px;
+    color:#ffffff;
+  }
+.search-box input::placeholder{
+    color:#ffffff;
+}  
+.search-box input[type="text"],
+ textarea {
+    background-color: transparent;
+    border: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 110%;
+    padding: 10px 10px 10px 60px;      
+}
+.search-box .search-icon {
+    position: absolute;
+    left: 40px;
+    top: 53%;
+    transform: translateY(-53%);
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/search-icon.svg'); /* Replace this with the path to your custom icon */
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+.vector{
+    position:absolute;
+    top:650px;
+
+}
+.container-body{
+    padding: 0 60px;    
+}
+.container-body h2{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    margin-top:79px;
+}
+.container-body p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    margin-bottom: 56px;
+    margin-top: 25px;
+    }
+ 
+.explore-section{
+    width:100%;
+    display: flex;
+    justify-content: space-between;   
+   
+  }
+
+.card{
+    width:50%;
+    position: relative;
+    margin-bottom: 85px;
+}
+
+ .explore-section div.card:nth-child(2) {
+    display: flex;
+    justify-content: end;
+  }
+
+  .about-section-right div.card{
+    display: flex;
+    justify-content: end;
+  }
+
+.explore-section .card-info{
+    width:424px;
+}
+.card-info{
+    position: absolute;
+    width: 350px ;
+    bottom:-30px;
+    left: 30px;
+    background: linear-gradient(94.33deg, rgba(255, 255, 255, 0.6) 3.19%, rgba(255, 255, 255, 0.1) 99.26%);
+    backdrop-filter: blur(5px);
+    border: 1px solid #ccc;    
+    border-radius: 15px;
+    padding: 10px 0;
+}
+.card-info span{
+    margin: 0 25px 15px 25px;
+}
+.card-info .price{
+    padding: 5px 25px;
+    background: linear-gradient(90deg, #FF594C 0%, #FAC527 100%);
+    border-radius: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+}
+.card-info .book-now{
+    padding: 14px 25px;
+    font-weight: 500;
+    border: none;
+}
+.card-info p{
+    margin-left: 25px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;  
+    margin-bottom: 5px;
+}
+.card-info h4{
+    margin-left: 25px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+}
+.about-section{
+    display: flex;
+}
+.about-section card svg{
+    width:100%;
+}
+.about-section .card-info p{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 13px;
+}
+
+.about-section-left{
+    width:45%;
+    display: flex;
+    flex-direction: column;
+
+}
+.about-section-right{
+    width:55%;
+    display: flex;
+    flex-direction: column;
+
+}
+.about-section .card img{   
+    height: auto;
+}
+
+   
+.w-100{
+    width:100%;
+}
+
+.container-footer{
+    margin-top: 50px;
+}
+
+.container-footer .logo{
+    color:#000000;
+}
+
+.container-footer ul li a{
+    color:#000000; 
+}
+.container-footer .btn-light{
+    border:2px solid #000000;
+}
+.footer-logo{
+    width:50%;
+}
+.footer-logo p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 160%;
+}
+.down-arrow{
+    width:100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.burgr-menu{
+    display: none;    
+}
+
+
+
+/* media query */
+
+@media only screen and (max-width: 768px) {
+    .main-container{        
+        width:100%;       
+    }
+    .container-head{
+        height:100vh;
+        background-size: cover;
+    }
+    .burgr-menu{
+        display: block;
+        position:absolute;
+        right: 35px;
+    }
+    .select-box{
+        height: auto;
+        width: 95%;
+        margin: 0 10px;
+        flex-direction: column;
+    }
+    .down-arrow{        
+        margin-top: 20px;
+    }
+    .box{        
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+        height: 60px;
+    }
+   .menu{
+    display: none;
+   }
+   .vector{
+    display: none;
+   }
+   nav{ 
+    padding: 25px 35px 0 35px;
+
+   }
+   .logo{
+    width:auto;
+   }
+   .container-body{
+    display: none;
+   }
+   .container-footer{
+    display: none;
+   }
+   .hero-content h1{
+    font-size: 52px;
+    line-height: 60px;
+    margin-top: 78px; 
+    margin-bottom: 0; 
+    display: flex;
+    justify-content: center;  
+   }
+   .hero-content p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 19px;
+    margin-bottom: 37px;
+   }
+   .hero-content{
+    width:100%;
+   
+   }
+  
+}
+
+
+
