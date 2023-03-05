@@ -249,22 +249,15 @@ header{
     justify-content: space-between;   
    
   }
-
+  .explore-section .card img{
+    width:100%;
+  }
 .card{
-    width:50%;
+    width:48%;
     position: relative;
     margin-bottom: 85px;
 }
 
- .explore-section div.card:nth-child(2) {
-    display: flex;
-    justify-content: end;
-  }
-
-  .about-section-right div.card{
-    display: flex;
-    justify-content: end;
-  }
 
 .explore-section .card-info{
     width:424px;
@@ -319,6 +312,7 @@ header{
 }
 .about-section{
     display: flex;
+    justify-content: space-between;
 }
 .about-section card svg{
     width:100%;
@@ -336,14 +330,15 @@ header{
 
 }
 .about-section-right{
-    width:55%;
+    width:50%;
     display: flex;
     flex-direction: column;
 
 }
 .about-section .card img{   
     height: auto;
-}
+    width:100%;
+    }
 
    
 .w-100{
